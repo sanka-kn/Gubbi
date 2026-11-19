@@ -60,8 +60,8 @@ Lookup: 4 0 0 "kn_ligature_lookup_1"  {"kn_ligature_lookup_1 subtable"  } []
 Lookup: 4 0 0 "kn_ligature_lookup_2"  {"kn_ligature_lookup_2 subtable"  } []
 Lookup: 1 0 0 "kn_single_sub_lookup_1"  {"kn_single_sub_lookup_1 subtable"  } []
 Lookup: 2 0 0 "kn_multiple_sub_lookup_1"  {"kn_multiple_sub_lookup_1 subtable"  } []
-Lookup: 6 0 0 "kn_blwf_lookup_2"  {"kn_blwf_lookup_2 subtable"  } []
-Lookup: 6 0 0 "kn_blwf_lookup_3"  {"kn_blwf_lookup_3 contextual 0"  "kn_blwf_lookup_3 contextual 1"  } []
+Lookup: 6 0 0 "kn_blwf_lookup_2"  {"kn_blwf_lookup_2 subtable"  } ['blwf' ('knd2' <'dflt' > ) ]
+Lookup: 6 0 0 "kn_blwf_lookup_3"  {"kn_blwf_lookup_3 contextual 0"  "kn_blwf_lookup_3 contextual 1"  } ['blwf' ('knd2' <'dflt' > ) ]
 Lookup: 6 0 0 "kn_blwf_lookup_4"  {"kn_blwf_lookup_4 contextual 0"  "kn_blwf_lookup_4 contextual 1"  } ['blwf' ('knda' <'dflt' > ) ]
 Lookup: 6 0 0 "kn_blwf_lookup_1"  {"kn_blwf_lookup_1 contextual 0"  "kn_blwf_lookup_1 contextual 1"  } ['blwf' ('knda' <'dflt' > ) ]
 Lookup: 4 0 0 "kn_abvs_lookup_1"  {"kn_abvs_lookup_1 subtable"  } ['abvs' ('knda' <'dflt' > 'knd2' <'dflt' > ) ]
@@ -12985,6 +12985,7 @@ SplineSet
  98 -180 l 1,59,-1
 EndSplineSet
 Ligature2: "kn_blws_lookup_1 subtable" vattu_ka vattu_Sha
+Ligature2: "kn_ligature_lookup_1 subtable" U0CCD glyph_kSha
 EndChar
 
 StartChar: glyph_kShaNa
