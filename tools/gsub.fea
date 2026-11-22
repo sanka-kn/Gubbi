@@ -131,6 +131,7 @@ lookup kn_ligature_lookup_1{
 	sub \U0CCD \U0CB8  by \vattu_sa;
 	sub \U0CCD \U0CB9  by \vattu_ha;
 	sub \U0CCD \U0CDE  by \vattu_hale_La;
+	sub \U0CCD \glyph_kSha  by \vattu_kSha;
 } kn_ligature_lookup_1;
 
 lookup kn_ligature_lookup_2 {
@@ -539,10 +540,10 @@ feature rphf {
 } rphf;
 
 feature blwf {
-    # script knd2;
-    # language dflt;
-    # lookup kn_blwf_lookup_2;
-    # lookup kn_blwf_lookup_3;
+    script knd2;
+    language dflt;
+    lookup kn_blwf_lookup_2;
+    lookup kn_blwf_lookup_3;
     # lookup kn_blwf_lookup_4;
     
     script knda;
